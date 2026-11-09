@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""TCP 服务器（教材 TCPServer.py）—— 运行在 Debian 虚拟机
-改动：端口 12000 -> 5202；加 SO_REUSEADDR（不加则重启时报 Address already in use）；
-      多打印 accept 到的对端地址，方便对照抓包。
-运行：python3 tcpserver.py
-"""
 from socket import *
 
 serverPort = 5202

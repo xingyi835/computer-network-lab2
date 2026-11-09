@@ -1,9 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""UDP 服务器（教材 UDPServer.py）—— 运行在 Debian 虚拟机
-改动：端口 12000 -> 5201；多打印一行，把 client 发来的内容显示出来（A1 验收要求）。
-运行：python3 udp_server.py
-"""
 from socket import *
 
 serverPort = 5201                                   # A1 要求：教材的 12000 改成 5201
