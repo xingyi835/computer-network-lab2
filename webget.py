@@ -1,4 +1,4 @@
-# GitHub public repository: https://github.com/xingyi835/New-beginning
+# GitHub public repository: https://github.com/xingyi835/computer-network-lab2
 import socket
 import sys
 
